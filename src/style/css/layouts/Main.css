@@ -1,0 +1,49 @@
+
+
+.main-section {
+    padding-left: 60px;
+    font-family: Arial, sans-serif;
+    padding-bottom: 60px;
+    background-color: rgb(70, 70, 71);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    
+
+    h1 {
+        font-size: 36px;
+        color: rgb(153, 153, 153)
+      }
+      
+      h2 {
+        font-size: 28px;
+        color: white;
+        margin-top: 20px;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+      }
+      
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      strong {
+        font-weight: bold;
+      }
+      
+    
+  }
+  
+  
