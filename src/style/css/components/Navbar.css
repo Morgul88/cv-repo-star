@@ -1,59 +1,80 @@
-
 .navbar {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .navbar .logo h2 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 20vh;
+  position: relative;
+}
+
+.navbar .logo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ff6347;
+}
+
+/* Hamburger-ikon */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
   .nav-links {
-    list-style: none;
-    display: flex;
+    display: none; /* Dölj länkarna på mindre skärmar */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
   }
-  
+
+  .nav-links.active {
+    display: flex; /* Visa länkarna när active-klass är tillagd */
+  }
+
   .nav-links li {
-    margin-left: 20px;
+    margin: 15px 0;
   }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
+
+  /* Visa hamburger-ikonen på små skärmar */
+  .hamburger {
+    display: block;
   }
-  
-  .nav-links li a:hover {
-    color: #ff6347;  /* Ändra färg vid hover */
+
+  /* För att markera hamburgermenyn */
+  .navbar.active .hamburger {
+    color: #ff6347;
   }
-  
-  /* Responsiv design */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;  /* Dölj nav-links på små skärmar */
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: #333;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .nav-links li {
-      margin: 15px 0;
-    }
-  
-    .navbar.active .nav-links {
-      display: flex;
-    }
-  }
-  
+}
