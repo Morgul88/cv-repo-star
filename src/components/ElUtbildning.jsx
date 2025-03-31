@@ -8,7 +8,7 @@ const ElUtbildning = () => {
         <Timetag value='2010-2011'/>
       </div>
 
-      <h2>Elektrikerutbildning - Movant Göteborg</h2>
+      <h2>Elektrikerutbildning - Göteborg</h2>
       <p>Denna elektrikerutbildning ger dig grundläggande och avancerade kunskaper inom elektricitet och energi. Under utbildningen kommer du att läsa både gemensamma kurser och välja en inriktning för att fördjupa dina kunskaper. Här får du lära dig om elektriska system, installation, styrsystem, och mycket mer.</p>
       
       <h3>Gemensamma Kurser</h3>
@@ -145,38 +145,7 @@ const ElUtbildning = () => {
         </tbody>
       </table>
 
-      <h3>Tillvalskurser</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Ämne</th>
-            <th>Kurskod</th>
-            <th>Poäng</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Svenska 1</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Svenska som andraspråk 1</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Engelska 5</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Orienteringskurs Yrkessvenska</td>
-            <td>-</td>
-            <td>50</td>
-          </tr>
-        </tbody>
-      </table>
+      
 
       <h3>Sammanfattning</h3>
       <p>Totalt poäng: 1650</p>
