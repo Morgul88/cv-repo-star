@@ -1,5 +1,71 @@
 header{
-   
+    padding: 10px 20px;
+    background-color: rgb(27, 28, 54);
+    color: white;
+    display:flex;
+    
+    h1 {
+        font-size: 100px;
+        padding: 0;
+        margin: 0;
+        color: #e6d6b6;
+        border-right: 1px solid rgb(94, 94, 94);
+        
+    }
     
    
+    h2{
+        color:rgb(228, 58, 58);
+        font-size: 40px;;
+        margin:0;
+        strong{
+            color:white;
+            
+        }
+    }
+
+    p{
+        margin:0;
+        margin-top: 0;
+        padding-bottom: 10px;
+    }
+    .map{
+        z-index: 0;
+        position: absolute;
+        right:0;
+        top:120px
+    }
+    .title-info{
+        padding-top: 20px;
+        
+
+        p{
+           margin-right: 30px;
+            border-bottom: 1px solid rgb(94, 94, 94);;
+        }
+        
+    }
+    .profile-picture {
+        padding-top: 10px;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 5px solid rgb(202, 176, 176); 
+            
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); 
+            transition: all 0.3s ease; 
+        }
+    
+        padding-right: 20px;
+    }
+    
+    
+    .profile-picture img:hover {
+        transform: scale(1.05); 
+        border: 5px solid rgba(255, 255, 255, 1); 
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+    }
+    
 }
