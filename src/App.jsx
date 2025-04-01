@@ -18,6 +18,7 @@ import WalterHansson from './components/WalterHansson'
 import KungsbackaKommun from './components/KungsbackaKommun'
 import Wellspect from './components/Wellspect'
 import Granitor from './components/Granitor'
+import Extra from './components/Extra'
 
 function App() {
   
@@ -37,7 +38,7 @@ function App() {
             <Routes>
               
               <Route path="/" element={<Main />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               
               <Route path="/webbutvecklare" element={<Webbutvecklare />} /> 
@@ -49,6 +50,7 @@ function App() {
               <Route path="/kungsbacka" element={<KungsbackaKommun />} />
               <Route path="/wellspect" element={<Wellspect />} />
               <Route path="/granitor" element={<Granitor />} />
+              <Route path="/extra" element={<Extra />} />
             </Routes>
           </section>
          

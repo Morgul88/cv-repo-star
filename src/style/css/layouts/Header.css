@@ -1,71 +1,149 @@
-header{
+header {
     padding: 10px 20px;
     background-color: rgb(27, 28, 54);
     color: white;
-    display:flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+h1 {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    color: #e6d6b6;
     
+}
+
+h2 {
+    color: rgb(228, 58, 58);
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 strong {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.map {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    max-width: 30%;
+}
+
+.title-info {
+    padding-top: 20px;
+    max-width: 60%; 
+}
+
+.title-info p {
+    margin-right: 30px;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+.hamburger-menu{
+    display:none;
+}
+.profile-picture {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(202, 176, 176);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.05);
+    border: 5px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 1400px) {
     h1 {
-        font-size: 100px;
-        padding: 0;
-        margin: 0;
-        color: #e6d6b6;
-        border-right: 1px solid rgb(94, 94, 94);
-        
+        font-size: 80px;
     }
-    
-   
-    h2{
-        color:rgb(228, 58, 58);
-        font-size: 40px;;
-        margin:0;
-        strong{
-            color:white;
-            
-        }
+    h2 {
+        font-size: 30px;
     }
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+    }
+}
 
-    p{
-        margin:0;
-        margin-top: 0;
-        padding-bottom: 10px;
-    }
-    .map{
-        z-index: 0;
-        position: absolute;
-        right:0;
-        top:120px
-    }
-    .title-info{
-        padding-top: 20px;
-        
 
-        p{
-           margin-right: 30px;
-            border-bottom: 1px solid rgb(94, 94, 94);;
-        }
-        
-    }
+@media (max-width: 800px) {
     .profile-picture {
-        padding-top: 10px;
-        img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%; 
-            object-fit: cover; 
-            border: 5px solid rgb(202, 176, 176); 
-            
-            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); 
-            transition: all 0.3s ease; 
-        }
-    
-        padding-right: 20px;
+        display: none; 
     }
-    
-    
-    .profile-picture img:hover {
-        transform: scale(1.05); 
-        border: 5px solid rgba(255, 255, 255, 1); 
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+    .title-info {
+        max-width: 80%; 
     }
-    
+    .title-info p {
+        
+        border-bottom: none;
+    }
+    .hamburger-menu{
+        display:block;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .map {
+        display: none; /* Döljer kartan */
+    }
+    .title-info {
+        max-width: 100%;
+    }
+}
+
+/* För skärmar under 768px (mobil) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* För skärmar under 480px (mindre mobil) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 12px;
+    }
 }

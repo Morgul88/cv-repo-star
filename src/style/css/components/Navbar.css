@@ -32,6 +32,7 @@
 .nav-bar-layout{
   background-color: rgb(27, 28, 54);
   padding-top: 30px;
+  display:block;
 }
 .nav-bar-link.active {
   font-weight: bold;
@@ -47,11 +48,13 @@
   background-color: rgb(27, 28, 54);
   color:rgb(238, 27, 27);
   padding:7px;
-
-  
-
 }
 
+@media screen and (max-width: 768px) {
+    .nav-bar-layout{
+      display:none;
+    }
+}
 .nav-links {
   list-style: none;
   font-size: 16px;

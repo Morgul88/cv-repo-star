@@ -3,7 +3,7 @@ import Timetag from './tag/Timetag'
 
 const ElUtbildning = () => {
   return (
-    <div>
+    <div className='education'>
       <div className='time-line'>
         <Timetag value='2010-2011'/>
       </div>
