@@ -5,12 +5,12 @@ const Gryaab = () => {
   return (
     <div>
       <Timetag value='2015-2019'/>
-      <h2>Gryaab - För Havet och Samhället</h2>
+      <h2 className='info-title'>Gryaab - För Havet och Samhället</h2>
       <p>Gryaab är ett företag som arbetar för att renovera och återställa avloppsvatten från drygt 824 000 invånare i Göteborgsregionen och andra närliggande områden. Företaget tar hand om avloppsvattnet och ser till att det renas genom en avancerad process på Ryaverket i Göteborg. Avloppsvattnet renas för att minska näringsämnen som bidrar till övergödning av havet, och de behandlade vattnet återförs i kretsloppet som biogas och slam.</p>
       
       <p>Som drifttekniker på Gryaab arbetar man med att övervaka och underhålla de olika delarna av reningsprocessen på anläggningen. Detta inkluderar att säkerställa att alla maskiner och system fungerar som de ska, hantera eventuella problem eller driftstopp och se till att vattenreningen sker på ett effektivt sätt för att hålla nere miljöpåverkan. Driftteknikernas arbete bidrar direkt till att Gryaab klarar de utsläppsvillkor som är fastställda och att avloppsvatten renas på ett miljövänligt sätt innan det släpps ut i Göta älv.</p>
       
-      <h3>Mina arbetsuppgifter som drifttekniker på Gryaab?</h3>
+      <h4>Mina arbetsuppgifter som drifttekniker på Gryaab?</h4>
       <ul>
         <li>Övervakar och kontrollerar reningsprocessen för avloppsvatten.</li>
         <li>Utför rutinmässiga inspektioner och underhåll på reningsverkets tekniska system.</li>

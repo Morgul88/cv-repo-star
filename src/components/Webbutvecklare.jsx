@@ -5,7 +5,7 @@ const Webbutvecklare = () => {
   return (
     <div>
       <Timetag value='2023-Pågående'/>
-      <h2>Webbutvecklare inom .NET EC-STREAM</h2>
+      <h2 className='info-title'>Webbutvecklare inom .NET EC-STREAM</h2>
       <p>Utbildningen i Webbutveckling inom .NET ger dig de kunskaper och färdigheter som krävs för att bygga och underhålla moderna webbapplikationer och webbplatser med hjälp av Microsofts .NET-ramverk och programmeringsspråket C#.</p>
       
       <p>Under utbildningen kommer du att lära dig både frontend och backend-utveckling, vilket innebär att du får praktisk erfarenhet av att skapa användarvänliga gränssnitt och utveckla funktionalitet som styr webbapplikationens interna processer. Du kommer även att få kunskap om databashantering, webbsäkerhet och hur du säkerställer att applikationer är effektiva, säkra och användarvänliga.</p>

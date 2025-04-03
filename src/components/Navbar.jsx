@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="navbar">
         <strong className='link-title'>PROFIL</strong>
         
-        <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active' : 'nav-bar-link'} to='/'>OM MIG</NavLink>
+        <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active' : 'nav-bar-link'} to='/'>HENRIK STARANDER</NavLink>
         <NavLink to='/contact' className={({ isActive }) => isActive ? 'nav-bar-link active' : 'nav-bar-link'} >KONTAKTA MIG</NavLink>
         
       </nav>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <NavLink className='nav-bar-link' to='/kungsbacka'>INDUSTRIELEKTRIKER KUNGSBACKA KOMMUN</NavLink>
         <NavLink className='nav-bar-link' to='/gryaab'>DRIFTTEKNIKER - GRYAAB</NavLink>
         <NavLink className='nav-bar-link' to='/walter-hansson'>ELEKTRIKER - WALTER HANSSON ELAB</NavLink>
-        <NavLink className='nav-bar-link' to='/extra'>ÖVRIGA ANSTÄLLNINGAR</NavLink>
+        <NavLink className='nav-bar-link' to='/extra'>ÖVRIGA ANSTÄLLNINGAR & KUNSKAPER</NavLink>
         
       </nav>
      

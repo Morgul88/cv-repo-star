@@ -37,8 +37,8 @@
 .nav-bar-link.active {
   font-weight: bold;
   background-color: rgb(43, 44, 94);
-  border-bottom-right-radius: 5px;
-  color:white;
+  border-bottom-right-radius: 20px;
+  color:rgb(238, 27, 27);
 }
 .link-title{
   border-top-left-radius: 10px;

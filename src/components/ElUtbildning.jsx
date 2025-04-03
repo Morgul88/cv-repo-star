@@ -4,151 +4,111 @@ import Timetag from './tag/Timetag'
 const ElUtbildning = () => {
   return (
     <div className='education'>
-      <div className='time-line'>
-        <Timetag value='2010-2011'/>
-      </div>
-
-      <h2>Elektrikerutbildning - Göteborg</h2>
-      <p>Denna elektrikerutbildning ger dig grundläggande och avancerade kunskaper inom elektricitet och energi. Under utbildningen kommer du att läsa både gemensamma kurser och välja en inriktning för att fördjupa dina kunskaper. Här får du lära dig om elektriska system, installation, styrsystem, och mycket mer.</p>
       
-      <h3>Gemensamma Kurser</h3>
+      <Timetag value='2010-2011'/>
+      
+      <h2 className='info-title'>Elektrikerutbildning - Göteborg</h2>
+      <p>Den här elektrikerutbildningen ger en solid grund inom elteknik, där du får de färdigheter och den teoretiska kunskap som krävs för att arbeta som elektriker i en mängd olika branscher. Du lär dig både om de tekniska aspekterna av elektriska installationer och om säkerhetsföreskrifter, vilket är avgörande för att kunna utföra arbetet på ett säkert och effektivt sätt.</p>
+      
+      <p>Under utbildningen lär du dig om installation och drift av elektriska system, inklusive elinstallationer i både privata och kommersiella miljöer. Du får också kunskaper inom styrsystem och automation, vilket gör att du kan arbeta med mer avancerad teknologi som används i industrin och vid byggnation av moderna byggnader.</p>
+      
+      <p>Utbildningen är också designad för att förbereda dig för arbetslivet genom att erbjuda praktiska moment och projekt där du får jobba med verkliga elinstallationssituationer. Du lär dig att arbeta både självständigt och i team, vilket gör att du är väl förberedd för de krav och utmaningar som arbetsgivare ställer på dagens elektriker.</p>
+
+      <h4>Kurser i utbildningen:</h4>
       <table>
         <thead>
           <tr>
             <th>Ämne</th>
-            <th>Kurskod</th>
             <th>Poäng</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Orienteringskurs Studieplanering</td>
-            <td>1250</td>
+            <td>Projekt och företagande</td>
             <td>50</td>
           </tr>
           <tr>
-            <td>Datorteknik 1a</td>
-            <td>-</td>
+            <td>Belysningteknik</td>
             <td>100</td>
           </tr>
           <tr>
-            <td>Praktisk ellära</td>
-            <td>-</td>
+            <td>Elarbetsmiljö och säkerhet</td>
             <td>100</td>
           </tr>
           <tr>
-            <td>Elkraftteknik</td>
-            <td>-</td>
+            <td>Elinstallation grundkurs</td>
             <td>100</td>
-          </tr>
-          <tr>
-            <td>Elektromekanik</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Energiteknik</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Fastighetsautomation 1</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Servicekunskap 1</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Elinstallationer</td>
-            <td>-</td>
-            <td>200</td>
           </tr>
           <tr>
             <td>Elmotorstyrning</td>
-            <td>-</td>
             <td>100</td>
           </tr>
           <tr>
-            <td>Komvuxarbete El och energi</td>
-            <td>-</td>
+            <td>Elkompetens A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Elkompetens B</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Ellära A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Ellära B</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Växelström trefas</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Digitalteknik A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Elektroik grundkurs</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Fastighetsautomation A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Mätteknik A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Reglerteknik A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Automationsenheter</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Styrtekniker A</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Styrtekniker B</td>
             <td>100</td>
           </tr>
           <tr>
-            <td>Mekatronik 1</td>
-            <td>-</td>
-            <td>100</td>
+            <td>Installation och registrering</td>
+            <td>50</td>
           </tr>
-        </tbody>
-      </table>
-
-      <h3>Inriktning Industri</h3>
-      <table>
-        <thead>
           <tr>
-            <th>Ämne</th>
-            <th>Kurskod</th>
-            <th>Poäng</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Robotteknik</td>
-            <td>-</td>
+            <td>Säkerhetssystem</td>
             <td>100</td>
           </tr>
           <tr>
-            <td>Mät- och styrteknik</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Mät- och reglerteknik</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Programmerbara styrsystem</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h3>Inriktning Installation</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Ämne</th>
-            <th>Kurskod</th>
-            <th>Poäng</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Belysningsteknik</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Kommunikationsnät 1</td>
-            <td>-</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>Larm-, övervaknings- och säkerhetssystem</td>
-            <td>-</td>
+            <td>CAD-Teknik A</td>
             <td>100</td>
           </tr>
         </tbody>
       </table>
-
-      
-
-      <h3>Sammanfattning</h3>
-      <p>Totalt poäng: 1650</p>
     </div>
   )
 }
