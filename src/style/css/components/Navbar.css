@@ -38,7 +38,7 @@
   font-weight: bold;
   background-color: rgb(43, 44, 94);
   border-bottom-right-radius: 20px;
-  color:rgb(238, 27, 27);
+  color:white;
 }
 .link-title{
   border-top-left-radius: 10px;
@@ -46,7 +46,7 @@
   font-size: 20px;
   border-bottom: 1px solid rgb(43, 44, 94);;
   background-color: rgb(27, 28, 54);
-  color:rgb(238, 27, 27);
+  color:white;
   padding:7px;
 }
 

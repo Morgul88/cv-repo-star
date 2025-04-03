@@ -5,7 +5,7 @@ import '../style/css/components/About.css';
 const About = () => {
   return (
     <section className='about'>
-      <h2 className='info-title'>Om mig</h2>
+      <h2 className='info-title'>Min historia</h2>
 
       <p>
       Studerar till Webb­utvecklare inom .NET på EC-Utbildning i Göteborg. Under utbildningen får vi lära oss grunderna och avancerade aspekter av webbutveckling genom Microsofts .NET-ramverk, programmeringsspråk 
@@ -65,8 +65,9 @@ const About = () => {
         <li><NavLink className='about-link' to='/wellspect'><strong>Underhållstekniker</strong></NavLink> - Wellspect HealthCare (2020-2022) <br /> Underhåll på högautomatiserad produktionsanläggning.</li>
         <li><NavLink className='about-link' to='/kungsbacka'><strong>Industri-elektriker</strong></NavLink> - Kungsbacka Kommun (2019-2020) <br /> Elunderhåll och installation inom VA-drift.</li>
         <li><NavLink className='about-link' to='/gryaab'><strong>Drifttekniker</strong></NavLink> - GRYAAB (2015-2019) <br /> Drift- och underhållsarbete på Göteborgs reningsverk.</li>
+        <li><NavLink className='about-link' to='/extra'><strong>Övriga anställningar & Kunskaper</strong></NavLink></li>
       </ul>
-
+      
       <h3>Tekniska kunskaper</h3>
       <ul>
         <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
