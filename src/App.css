@@ -15,7 +15,7 @@ body{
 }
 
 .layout{
-    display:flex;
+  display:flex;
     
 }
 /* För fade-out */
@@ -49,7 +49,7 @@ body{
     margin-top: 30px;
 }
 .content-text {
-  width: 70%;
+  width: 60%;
   text-align: justify;
   
 }
@@ -58,18 +58,16 @@ body{
   transition: opacity 3s ease-in;
 }
 
-
-
 .time-line{
     
-    border-radius: 30px;
-    width: 350px;
-    align-items: center;
-    padding-left: 30px;
-    padding-top: 10px;
-    background-color: #2B2B2B;
-    color:white;
-    margin-bottom: 10px;
+  border-radius: 30px;
+  width: 350px;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: #2B2B2B;
+  color:white;
+  margin-bottom: 20px;
 
 }
 .about{
