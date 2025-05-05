@@ -41,7 +41,7 @@ function App() {
               <Route path="/" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               
-              <Route path="/webbutvecklare" element={<Webbutvecklare />} /> 
+              <Route path="/webbutvecklare" element={<Webbutvecklare/>} /> 
               <Route path="/gryaab" element={<Gryaab />} /> 
               <Route path="/campus-varberg" element={<CampusVarberg />} /> 
               <Route path="/el-utbildning" element={<ElUtbildning />} /> 

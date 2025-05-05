@@ -15,10 +15,11 @@
 .nav-bar-link {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
   transition: color 0.3s ease, font-weight 0.3s ease, background-color 0.3s ease;
-  padding: 10px;
-  border-left: 1px solid rgb(43, 44, 94);
+  padding: 15px;
+  border-left: 1px solid #1F1F1F;
   color: white;
   background-color: transparent;
 }
@@ -27,26 +28,44 @@
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.2); 
   color: #f0f0f0; 
+  border-bottom-right-radius: 20px;
 }
 
 .nav-bar-layout{
-  background-color: rgb(27, 28, 54);
+  background-color: #1A1A1A;
   padding-top: 30px;
   display:block;
+  padding-right: 10px;
+  padding-left: 5px;
+  width: 400px;
 }
 .nav-bar-link.active {
+  position: relative;
   font-weight: bold;
-  background-color: rgb(43, 44, 94);
+  background-color: #1F1F1F;
   border-bottom-right-radius: 20px;
-  color:white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-bar-link.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #FF6A00;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .link-title{
   border-top-left-radius: 10px;
   font-weight: 900;
   font-size: 20px;
-  border-bottom: 1px solid rgb(43, 44, 94);;
-  background-color: rgb(27, 28, 54);
-  color: rgb(204, 59, 59);
+  border-bottom: 1px solid #2B2B2B;;
+  background-color: #1F1F1F;
+  color: #FF6A00;
   padding:7px;
 }
 

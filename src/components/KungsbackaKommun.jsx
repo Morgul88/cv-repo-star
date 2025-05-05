@@ -3,7 +3,7 @@ import Timetag from './tag/Timetag'
 
 const KungsbackaKommun = () => {
   return (
-    <div>
+    <div className='content-text'>
      
       <Timetag value='2019-2020' />
       

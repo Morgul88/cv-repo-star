@@ -3,7 +3,7 @@ import Timetag from './tag/Timetag'
 
 const Granitor = () => {
   return (
-    <div>
+    <div className='content-text'>
         <Timetag value='2022-2023' />
       <h2 className='info-title'>Granitor - Entrepenad och Service</h2>
       <p>Granitor är en ledande aktör inom entreprenad, konsult och service för industri, bygg och infrastruktur. Företaget är känt för sin långsiktiga och hållbara syn på både lösningar och relationer. De erbjuder ett brett utbud av tjänster, från installation och service till stora storskaliga projekt.</p>

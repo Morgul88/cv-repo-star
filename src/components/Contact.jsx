@@ -3,7 +3,7 @@ import ContactForm from './form/ContactForm'
 
 const Contact = () => {
   return (
-    <div className='contact'> <h2 className='info-title'>Kontaktuppgifter:</h2>
+    <div className='contact content-text'> <h2 className='info-title'>Kontaktuppgifter:</h2>
     <ul>
       <li><strong>Adress:</strong> Frillesås mellanväg 5, Frillesås</li>
       <li><strong>E-post:</strong> <a href="mailto:staranderh@gmail.com">staranderh@gmail.com</a></li>

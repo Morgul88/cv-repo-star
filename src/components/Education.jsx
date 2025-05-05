@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className='mobile-education'>Education</div>
+    <div className='mobile-education content-text'>Education</div>
   )
 }
 

@@ -5,7 +5,7 @@ import Education from './Education'
 const CampusVarberg = () => {
   return (
     <>
-       <div className='education'>
+       <div className='education content-text'>
         <Timetag value='2013-2015' />
         <h2 className='info-title'>Vatten- och Biogastekniker på Campus Varberg</h2>
         <p>Campus Varberg erbjuder en 2årig YH-utbildning som gör dig väl förberedd för ett tekniskt yrke inom hållbarhet, biogasframställning och vattenrening. Utbildningen förbereder dig för roller som drifttekniker inom biogas, vattenproduktion eller vattenrening, där du får kunskaper i drift, underhåll och reparation av anläggningar samt tekniska processer för rening.</p>

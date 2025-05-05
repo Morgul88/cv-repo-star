@@ -3,7 +3,7 @@ import Timetag from './tag/Timetag'
 
 const WalterHansson = () => {
   return (
-    <div>
+    <div className='content-text'>
       <Timetag value='2011-2013'/>
       
       <h2 className='info-title'>Walter Hansson Elab - Elektriker och Installationstjänster i Kungsbacka</h2>

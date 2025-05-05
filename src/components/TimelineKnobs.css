@@ -1,0 +1,75 @@
+
+.timeline-container {
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    color:white;
+    
+  }
+  
+  .label-container {
+    display: flex;
+
+    width: 100%;
+    max-width: 360px;
+    align-items: center;
+    span{
+        padding-right: 20px;
+        
+    }
+    
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+  }
+  
+  /* Styling för själva växlingsknappen */
+  .toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-switch {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #E65100;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .toggle-switch.active {
+    background-color: #E65100;/* Grön för aktivt läge */
+  }
+  
+  .toggle-knob {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: left 0.3s ease;
+    
+  }
+  
+  .toggle-knob.move-right {
+    left: calc(100% - 35px); /* Flyttar knappen till höger */
+  }
+  

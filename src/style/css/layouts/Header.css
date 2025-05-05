@@ -1,6 +1,6 @@
 header {
     padding: 10px 20px;
-    background-color: rgb(27, 28, 54);
+    background-color: #1A1A1A;
     color: white;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ h1 {
     font-size: 100px;
     padding: 0;
     margin: 0;
-    color: #e6d6b6;
+    color: #f5e7cb;
     
 }
 
@@ -42,37 +42,49 @@ p {
     padding-top: 20px;
     max-width: 60%; 
     h2{
-        color: rgb(204, 59, 59);
+        color: #FF6A00;
     }
 }
 
 .title-info p {
     margin-right: 30px;
-    border-bottom: 1px solid rgb(94, 94, 94);
+    border-bottom: 2px solid rgba(255, 106, 0, 0.4); /* Orange med 40% opacitet */
+    box-shadow: 0 0 15px rgba(400, 0, 0, 0);
 }
 .hamburger-menu{
     display:none;
 }
 .profile-picture {
-    padding-top: 10px;
-    padding-right: 20px;
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-left: 50px;
 }
 
-.profile-picture img {
+/* .profile-picture img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid rgb(202, 176, 176);
+    border: 5px solid transparent;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-}
-
-.profile-picture img:hover {
+} */
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    box-shadow: 0 0 15px rgba(255, 106, 0, 0.5);
+    object-fit: cover;
+    filter: grayscale(100%) brightness(130%);
+  }
+/* .profile-picture img:hover {
     transform: scale(1.05);
-    border: 5px solid rgba(255, 255, 255, 1);
+    
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-}
+    filter: grayscale(0%) brightness(130%);
+    
+} */
 
 
 @media (max-width: 1400px) {

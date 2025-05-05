@@ -18,8 +18,8 @@ const Header = () => {
       <div className='title-info'>
         <h1>HENRIK STARANDER</h1>
         <h2>JUNIOR WEBBUTVECKLARE INOM<strong> .NET</strong></h2>
-        <p>#Html&CSS #JavaScript #CSharp #Datalagring #ASP.NET 
-        #FrontEnd #BackEnd #CMS #Azure #Blazor #FullStack</p>
+        <p>#HTML&CSS #JAVASCRIPT C# #SQL #ASP.NET 
+        #FRONTEND #BACKEND #CMS #AZURE #BLAZOR #FULLSTACK</p>
       </div>
 
       {/* Hamburgarikonen */}

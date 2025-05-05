@@ -3,7 +3,7 @@ import Timetag from './tag/Timetag'
 
 const SGymnasiet = () => {
   return (
-    <div>
+    <div className='content-text'>
       <Timetag value='2004-2007' />
 
       <h2 className='info-title'>Samhällsvetenskapsprogrammet, Inriktning Samhällsvetenskap</h2>
