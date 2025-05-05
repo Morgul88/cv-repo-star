@@ -11,12 +11,16 @@ const Navbar = () => {
   return (
     <>
      <div className='nav-bar-layout'>
+     
      <a className='hover' href="https://github.com/Morgul88" target="_blank" rel="noopener noreferrer">
       <i className="fa-brands fa-github"></i>
       </a>
       <a className='hover' href="https://www.linkedin.com/in/henrik-starander-1493b3280" target="_blank" rel="noopener noreferrer">
       <i className="fa-brands fa-linkedin"></i>
     </a>
+    <a className='hover' href="mailto:staranderh@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-envelope"></i>
+      </a>
       <nav className="navbar">
         <strong className='link-title'>PROFIL</strong>
         
