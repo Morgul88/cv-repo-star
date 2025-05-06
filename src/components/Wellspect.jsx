@@ -4,7 +4,7 @@ import Timetag from './tag/Timetag'
 const Wellspect = () => {
   return (
     <div className='content-text'>
-      <Timetag value='2020-2022'/>
+      <Timetag time='2020-2022'/>
       <h2 className='info-title'>Om Wellspect:</h2>
       <p>Wellspect Healthcare är en global ledare inom medicinsk utrustning, särskilt känd för sina innovativa lösningar som hjälper människor med blås- och tarmdysfunktion. Företaget har över 1000 anställda världen över och strävar efter att bli klimatneutralt. Med produkter som LoFric® och Navina™, har Wellspect förbättrat livskvaliteten för patienter som lider av kronisk förstoppning och urinvägsproblem.</p>
 

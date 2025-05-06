@@ -19,6 +19,7 @@ import KungsbackaKommun from './components/KungsbackaKommun'
 import Wellspect from './components/Wellspect'
 import Granitor from './components/Granitor'
 import Extra from './components/Extra'
+import Haldor from './components/Haldor'
 
 function App() {
   
@@ -51,6 +52,7 @@ function App() {
               <Route path="/wellspect" element={<Wellspect />} />
               <Route path="/granitor" element={<Granitor />} />
               <Route path="/extra" element={<Extra />} />
+              <Route path="/haldor" element={<Haldor />} />
             </Routes>
           </section>
          

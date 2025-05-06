@@ -5,7 +5,7 @@ const KungsbackaKommun = () => {
   return (
     <div className='content-text'>
      
-      <Timetag value='2019-2020' />
+      <Timetag time='2019-2020' />
       
       <h2 className='info-title'>Industrielektriker - Kungsbacka kommun</h2>
       <p>

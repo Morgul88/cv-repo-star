@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom'; 
 import '../style/css/components/About.css';
 import Timetag from './tag/Timetag';
-import TimelineKnobs from './TimelineKnobs'; // Importera TimelineKnobs
+import TimelineKnobs from './TimelineKnobs'; 
 
 const About = () => {
-  const [version, setVersion] = useState('KORT VERSION'); // Startvärde är "Kortare version"
-
+  const [version, setVersion] = useState('LÅNG VERSION'); 
+  
   return (
     <section className='about content-text'>
       <TimelineKnobs version={version} setVersion={setVersion}/>
 
-      {/* Timetag komponenten för att visa tidslinjedatum */}
-      <Timetag value='2023-Pågående' />
+      
+      
       
       <h2 className='info-title'>BAKGRUND</h2>
 

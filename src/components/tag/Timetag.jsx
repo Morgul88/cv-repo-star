@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Timetag = (props) => {
+const Timetag = ({ name, time }) => {
+  const displayName = name ? name : "Anställnings-period";
+  const displayTime = time ? time : "";
+
   return (
     <div className='time-line'>
-    <p><strong>Anställnings-period:</strong> {props.value} </p>
-   </div>
+      <p><strong>{displayName}</strong> {displayTime}</p>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ const ElUtbildning = () => {
   return (
     <div className='education content-text'>
       
-      <Timetag value='2010-2011'/>
+      <Timetag name="Utbildnings-period" time='2010-2011'/>
       
       <h2 className='info-title'>Elektrikerutbildning - Göteborg</h2>
       <p>Den här elektrikerutbildningen ger en solid grund inom elteknik, där du får de färdigheter och den teoretiska kunskap som krävs för att arbeta som elektriker i en mängd olika branscher. Du lär dig både om de tekniska aspekterna av elektriska installationer och om säkerhetsföreskrifter, vilket är avgörande för att kunna utföra arbetet på ett säkert och effektivt sätt.</p>

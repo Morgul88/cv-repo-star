@@ -8,9 +8,9 @@ const Webbutvecklare = () => {
 
   return (
     <div className={`content-text`}>
-      <TimelineKnobs version={version} setVersion={setVersion}/>
       
-      <Timetag value='2023-Pågående' />
+      
+      <Timetag name="Utbildnings-period" time='2023-Pågående' />
       <h2 className='info-title'>Webbutvecklare inom .NET EC-STREAM</h2>
       {version === 'LÅNG VERSION' ? 
       <>

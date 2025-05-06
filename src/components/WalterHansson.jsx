@@ -4,7 +4,7 @@ import Timetag from './tag/Timetag'
 const WalterHansson = () => {
   return (
     <div className='content-text'>
-      <Timetag value='2011-2013'/>
+      <Timetag time='2011-2013'/>
       
       <h2 className='info-title'>Walter Hansson Elab - Elektriker och Installationstjänster i Kungsbacka</h2>
       <p>Walter Hansson Elab är en välrenommerad elinstallatör och elbutik som har varit verksam i Kungsbacka sedan 1940. Företaget erbjuder professionella tjänster inom elinstallationer, vitvaruservice, solceller, elbilsladdning och mycket mer. Walter Hansson Elab strävar efter att ge varje kund ett vänligt och professionellt bemötande och är en pålitlig partner för alla dina el-behov.</p>

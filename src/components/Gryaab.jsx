@@ -4,7 +4,7 @@ import Timetag from "./tag/Timetag"
 const Gryaab = () => {
   return (
     <div className='content-text'>
-      <Timetag value='2015-2019'/>
+      <Timetag time='2015-2019'/>
       <h2 className='info-title'>Gryaab - För Havet och Samhället</h2>
       <p>Gryaab är ett företag som arbetar för att renovera och återställa avloppsvatten från drygt 824 000 invånare i Göteborgsregionen och andra närliggande områden. Företaget tar hand om avloppsvattnet och ser till att det renas genom en avancerad process på Ryaverket i Göteborg. Avloppsvattnet renas för att minska näringsämnen som bidrar till övergödning av havet, och de behandlade vattnet återförs i kretsloppet som biogas och slam.</p>
       
