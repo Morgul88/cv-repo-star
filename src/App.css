@@ -80,6 +80,21 @@ body{
     }
   }
 }
+.nav-bar-layout-mobile {
+  display:none;
+  padding-top: 20px;
+  i {
+    color: white;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    transition: color 0.3s ease; 
+  }
+
+  i:hover {
+    color: #FF6A00;
+  }
+}
 .about-link{
   color:black;
   transition: color 0.2s ease-in-out;
@@ -90,7 +105,8 @@ body{
 }
 .mobile-menu {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
     transition: color 0.3s ease, font-weight 0.3s ease, background-color 0.3s ease;
     padding: 10px;
     color: white;
@@ -131,5 +147,25 @@ body{
       }
     }
   }
-  
+  li{
+    font-size: 18px;
+  }
+  td{
+    font-size: 18px;
+  }
+  .education{
+    font-size: 18px;
+  }
+  .content-text{
+    font-size: 18px;
+  }
+  @media screen and (max-width: 768px) {
+    .content-text {
+      width: 90%;
+      text-align: center;
+      p{
+        font-size: 18px;
+      }
+    }
+  }
 

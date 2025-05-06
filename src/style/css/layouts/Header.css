@@ -53,13 +53,21 @@ p {
 }
 .hamburger-menu{
     display:none;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 .profile-picture {
     padding-top: 40px;
     padding-right: 70px;
     padding-left: 50px;
 }
-
+.mobile-menu{
+    p{
+        color:#FF6A00;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}
 /* .profile-picture img {
     width: 200px;
     height: 200px;
@@ -98,12 +106,15 @@ p {
         width: 150px;
         height: 150px;
     }
+    .title-info{
+        width: 80%;
+    }
 }
 
 
 @media (max-width: 800px) {
     .profile-picture {
-        display: none; 
+        
     }
     .title-info {
         max-width: 80%; 
@@ -113,6 +124,9 @@ p {
         border-bottom: none;
     }
     .hamburger-menu{
+        display:block;
+    }
+    .nav-bar-layout-mobile{
         display:block;
     }
 }
