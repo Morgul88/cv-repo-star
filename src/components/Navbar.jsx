@@ -28,7 +28,7 @@ const Navbar = () => {
         <strong className='link-title'>PROFIL</strong>
         
         <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active' : 'nav-bar-link'} to='/'>BAKGRUND</NavLink>
-        <NavLink to='/contact' className={({ isActive }) => isActive ? 'nav-bar-link active' : 'nav-bar-link'} >KONTAKTA MIG</NavLink>
+        
         
       </nav>
       <nav className="navbar">
