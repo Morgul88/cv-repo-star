@@ -21,7 +21,7 @@ const Navbar = () => {
       <a className='hover' href="mailto:staranderh@gmail.com" target="_blank" rel="noopener noreferrer">
         <i class="fa-solid fa-envelope"></i>
       </a>
-      <a className='hover' href="/CVS.pdf" target="_blank" rel="noopener noreferrer">
+      <a className='hover' href="/CVS.pdf" target="_blank" rel="noopener noreferrer" title='Ladda ner cv'>
       <i class="fa-solid fa-download"></i>
       </a>
       <nav className="navbar">
