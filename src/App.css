@@ -162,10 +162,10 @@ body{
   @media screen and (max-width: 768px) {
     .content-text {
       width: 90%;
-      font-size: 12px;
+      font-size: 14px;
       p{
-        
-        text-align: center;
+        font-size: 14px;
+        text-align: left;
       }
   
     }
@@ -175,10 +175,10 @@ body{
       text-align:center;
     }
     li{
-      font-size: 12px;
+      font-size: 14px;
     }
     td{
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
