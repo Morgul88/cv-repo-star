@@ -62,7 +62,7 @@ const About = () => {
       : 
         <>
           <p>
-            Jag studerar Webb­utveckling inom .NET på EC-Utbildning i Göteborg och har en bakgrund som elektriker och drifttekniker. 
+            Studerar Webb­utveckling inom .NET på EC-Utbildning i Göteborg och har en bakgrund som elektriker och drifttekniker. 
             Under utbildningen lär jag mig både frontend och backend webbutveckling, inklusive programmering i C# och användning av .NET.
             Jag har utvecklat en passion för webbutveckling och tror på vikten av teamwork och kommunikation. Jag strävar efter att ständigt förbättra mina tekniska färdigheter och ser fram emot att fortsätta växa inom detta område.
           </p>
