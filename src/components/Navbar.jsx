@@ -33,7 +33,7 @@ const Navbar = () => {
       </nav>
       <nav className="navbar">
         <strong className='link-title'>UTBILDNINGAR</strong>
-        <NavLink className='nav-bar-link' to='/webbutvecklare'>EC-UTBILDNING</NavLink>
+        <NavLink className='nav-bar-link' to='/webbutvecklare'>WEBBUTVECKLING .NET</NavLink>
         <NavLink className='nav-bar-link' to='/campus-varberg'>CAMPUS VARBERG</NavLink>
         <NavLink className='nav-bar-link' to='/el-utbildning'>EL-UTBILDNING</NavLink>
         <NavLink className='nav-bar-link' to='/gymnasiet'>GYMNASIUM</NavLink>
