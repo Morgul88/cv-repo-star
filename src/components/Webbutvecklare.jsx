@@ -4,7 +4,7 @@ import TimelineKnobs from './TimelineKnobs';
 
 const Webbutvecklare = () => {
   
-  const [version, setVersion] = useState('KORT VERSION'); // Startvärde är "Kortare version"
+  const [version, setVersion] = useState('LÅNG VERSION'); // Startvärde är "Kortare version"
 
   return (
     <div className={`content-text`}>
