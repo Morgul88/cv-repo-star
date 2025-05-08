@@ -164,18 +164,24 @@ body{
     .content-text {
       width: 95%;
       font-size: 14px;
+      padding:10px;
       p{
         font-size: 16px;
         text-align: left;
         font-weight: 900;
+        
       }
   
     }
     .time-line{
-      width: 250px;
+      width: 300px;
       padding:10px;
       text-align:center;
-      
+      padding:5px 20px;
+      align-items: center;
+      p{
+        padding:0;
+      }
     }
     li{
       font-size: 16px;
