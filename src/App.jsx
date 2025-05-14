@@ -20,9 +20,12 @@ import Wellspect from './components/Wellspect'
 import Granitor from './components/Granitor'
 import Extra from './components/Extra'
 import Haldor from './components/Haldor'
+import Cookies from './components/Cookies'
+import CookiesConsent from './components/CookiesConsent'
 
 function App() {
   
+  const [cookieAccepted , SetCookieAccepeted] = useState(localStorage.getItem("cookieConsent"));
 
   return (
     
@@ -35,13 +38,14 @@ function App() {
        
       
           <main>
+          <Cookies></Cookies>
           <section className="main-section">
             <Routes>
               
               <Route path="/" element={<Main />} />
               <Route path="/" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              
+              <Route path="/cookiesconsent" element={<CookiesConsent />} />
               <Route path="/webbutvecklare" element={<Webbutvecklare/>} /> 
               <Route path="/gryaab" element={<Gryaab />} /> 
               <Route path="/campus-varberg" element={<CampusVarberg />} /> 

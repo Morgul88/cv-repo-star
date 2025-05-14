@@ -1,0 +1,23 @@
+
+
+.cookie-banner{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    color:white;
+    padding:15px;
+    border-top: 1px solid #ccc;
+    display:block;
+    background-color: #1F1F1F;
+
+    button{
+        padding:5px;
+        margin:5px;
+        width: 100px;
+    }
+
+    a{
+        color:white;
+    }
+}

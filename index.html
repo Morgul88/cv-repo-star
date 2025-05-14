@@ -6,15 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSJ63JCMQZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    
+    
+     <script>
+      if (localStorage.getItem('terms-status') === 'true') {
+        console.log("Samtycke bekräftat. Laddar Google Analytics...");
 
-      gtag('config', 'G-BSJ63JCMQZ');
-    </script> -->
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-BSJ63JCMQZ';
+        script.async = true;
+        document.head.appendChild(script);
+
+        script.onload = () => {
+          console.log("Google Analytics-skriptet laddades framgångsrikt.");
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-BSJ63JCMQZ');
+
+          console.log("Google Analytics har konfigurerats.");
+        };
+      } else {
+        console.log("Inget samtycke från användaren. Google Analytics laddas inte.");
+      }
+    </script>
     <title>Web Development - Resume</title>
   </head>
   <body>

@@ -62,7 +62,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <button type="submit"><i class="fa-solid fa-envelope-open-text"></i></button>
+        <button type="submit"><i className="fa-solid fa-envelope-open-text"></i></button>
       </form>
     </div>
   );

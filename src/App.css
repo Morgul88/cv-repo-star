@@ -30,7 +30,9 @@ body{
   opacity: 1;
   transition: opacity 0.5s ease-in;
 }
-
+.clear-cookie{
+  color:#eb8148
+}
 .period{
   
   strong{
@@ -38,8 +40,20 @@ body{
     
   }
 }
+.btn-cookie{
+  width: 100px;
+  padding:5px;
+  margin:20px;
+  color:white;
+  background-color: #2B2B2B;
+  cursor: pointer;
 
-
+  
+}
+.btn-cookie:hover{
+  
+  background-color: #E65100;
+}
 .main-layout{
     display:block;
     width: 100%;

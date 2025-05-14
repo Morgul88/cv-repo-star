@@ -30,10 +30,10 @@ const Header = () => {
         <i className="fa-brands fa-linkedin"></i>
       </a>
       <a className='hover' href="mailto:staranderh@gmail.com" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-envelope"></i>
+        <i className="fa-solid fa-envelope"></i>
       </a>
       <a className='hover' href="/CVS.pdf" target="_blank" rel="noopener noreferrer" title='Ladda ner cv'>
-      <i class="fa-solid fa-download"></i>
+      <i className="fa-solid fa-download"></i>
       </a>
       </div>
       {/* Hamburgarikonen */}
