@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../style/css/layouts/Header.css';
 import Navbar from '../Navbar';
-import profile from '../../assets/profile.jpg';
+import profile from '../../assets/profile_new.jpg';
 import map from '../../assets/map.svg';
 import { NavLink } from 'react-router-dom';
 

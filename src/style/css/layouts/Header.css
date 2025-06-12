@@ -84,9 +84,9 @@ p {
     height: 250px;
     border-radius: 50%;
     
-    box-shadow: 0 0 15px rgba(255, 106, 0, 0.5);
+    box-shadow: 0 0 100px rgba(255, 106, 0, 0.5);
     object-fit: cover;
-    filter: grayscale(100%) brightness(130%);
+    filter: grayscale(100%) brightness(100%);
   }
 /* .profile-picture img:hover {
     transform: scale(1.05);
