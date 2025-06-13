@@ -76,8 +76,10 @@ p {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid transparent;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    
     transition: all 0.3s ease;
+    filter: grayscale(100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 
