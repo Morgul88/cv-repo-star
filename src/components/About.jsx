@@ -5,7 +5,7 @@ import Timetag from './tag/Timetag';
 import TimelineKnobs from './TimelineKnobs'; 
 
 const About = () => {
-  const [version, setVersion] = useState('LÅNG VERSION'); 
+  const [version, setVersion] = useState('KORT VERSION'); 
   
   return (
     <section className='about content-text'>
@@ -19,7 +19,7 @@ const About = () => {
       {version === 'LÅNG VERSION' ? 
         <>
           <p>
-            Studerar till Webb­utvecklare inom .NET på EC-Utbildning i Göteborg. Under utbildningen får vi lära oss grunderna och avancerade aspekter av webbutveckling genom Microsofts .NET-ramverk, programmeringsspråk 
+            Nyexaminerad Webb­utvecklare inom .NET på EC-Utbildning i Göteborg. Under utbildningen får vi lära oss grunderna och avancerade aspekter av webbutveckling genom Microsofts .NET-ramverk, programmeringsspråk 
             som C# och tekniker för att skapa robusta webbapplikationer. Vi utvecklar interaktiva webbsidor, cms system, applikationer och gränssnitt mot användare. Utbildningen innehåller kunskap både inom frontend och backend.
           </p>
           
@@ -62,7 +62,7 @@ const About = () => {
       : 
         <>
           <p>
-            Studerar Webb­utveckling inom .NET på EC-Utbildning i Göteborg och har en bakgrund som elektriker och drifttekniker. 
+            Jag är nyexaminerad webb­utvecklare inom .NET från EC-Utbildning i Göteborg och har en bakgrund som elektriker och drifttekniker. 
             Under utbildningen lär jag mig både frontend och backend webbutveckling, inklusive programmering i C# och användning av .NET.
             Jag har utvecklat en passion för webbutveckling och tror på vikten av teamwork och kommunikation. Jag strävar efter att ständigt förbättra mina tekniska färdigheter och ser fram emot att fortsätta växa inom detta område.
           </p>

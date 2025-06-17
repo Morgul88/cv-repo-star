@@ -29,3 +29,13 @@
     
   }
 }
+
+@keyframes mainAnimation {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  }
+}

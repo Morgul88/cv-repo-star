@@ -12,11 +12,11 @@ const Header = () => {
     <header>
       <img className='map' src={map} alt="Map" />
       <div className='profile-picture'>
-        <img src={profile} alt="Profile" />
+        <img className='image-ani' src={profile} alt="Profile" />
       </div>
 
-      <div className='title-info'>
-        <h1>HENRIK STARANDER</h1>
+      <div className='title-info fade-in-up'>
+        <h1 className='fade-in-up'>HENRIK STARANDER</h1>
         <h2>JUNIOR WEBBUTVECKLARE INOM<strong> .NET</strong></h2>
         <p>#HTML&CSS #JAVASCRIPT C# #SQL #ASP.NET 
         #FRONTEND #BACKEND #CMS #AZURE #BLAZOR #FULLSTACK</p>

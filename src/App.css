@@ -58,6 +58,21 @@ body{
     display:block;
     width: 100%;
     background-color: #1A1A1A;
+    animation: mainSectionAnimation 1s ease-in-out forwards;
+    animation-delay: 4s;
+    opacity: 0;
+    
+}
+
+@keyframes mainSectionAnimation{
+  from {
+    opacity: 0;
+    transform: translateY(600px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .extra{
     margin-top: 30px;
@@ -65,6 +80,8 @@ body{
 .content-text {
   width: 60%;
   text-align: justify;
+  
+  
   
 }
 .fade-in {
@@ -215,3 +232,124 @@ body{
     }
   }
 
+/* 
+  Animationer */
+
+  @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+  opacity: 0;
+}
+
+.image-ani{
+  animation: fadeInImage 2s ease-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+
+.nav-bar-animation-1 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 1.8s; /* 1.3 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-2 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 1.9s; /* 1.4 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-3 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.0s; /* 1.5 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-4 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.1s; /* 1.6 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-5 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.2s; /* 1.7 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-6 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.3s; /* 1.8 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-7 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.4s; /* 1.9 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-8 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.5s; /* 2.0 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-9 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.6s; /* 2.1 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-10 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.7s; /* 2.2 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-11 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.8s; /* 2.3 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-12 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 2.9s; /* 2.4 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-13 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 3.0s; /* 2.5 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-14 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 3.1s; /* 2.6 + 0.5 */
+  opacity: 0;
+}
+.nav-bar-animation-15 {
+  animation: fadeIn 0.8s linear forwards;
+  animation-delay: 3.2s; /* 2.7 + 0.5 */
+  opacity: 0;
+}
