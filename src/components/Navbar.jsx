@@ -38,7 +38,7 @@ const Navbar = () => {
       </a>
       <a
         className='hover nav-bar-animation-4'
-        href="/CVS.pdf"
+        href="/CVH.pdf"
         target="_blank"
         rel="noopener noreferrer"
         title='Ladda ner cv'
