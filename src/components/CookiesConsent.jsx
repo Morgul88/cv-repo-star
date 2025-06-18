@@ -11,13 +11,13 @@ const CookiesConsent = () => {
   }, []);
 
   const acceptTerms = () => {
+    
     localStorage.setItem('terms-status', 'true');
     setIsConsentGiven(true);
-    document.getElementById('cookie-banner').style.display = 'none';
-    console.log('Samtycke bekräftat');
+    
   };
 
-  
+  console.log(isConsentGiven)
 
   const revokeConsent = () => {
     localStorage.setItem('terms-status', 'false');

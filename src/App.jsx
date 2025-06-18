@@ -38,7 +38,7 @@ function App() {
        
       
           <main>
-          <Cookies></Cookies>
+          
           <section className="main-section">
             <Routes>
               
@@ -65,6 +65,7 @@ function App() {
       </div>
       
     </div>
+    <Cookies></Cookies>
     <Footer />
     </>
   )

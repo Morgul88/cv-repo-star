@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../style/css/layouts/Footer.css';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const [cookieStatus , SetCookieStatus] = useState();
@@ -27,7 +28,7 @@ const Footer = () => {
         {cleared  ? <p className='clear-cookie'>Cookies has been cleared</p>: null}
         <ul className="footer-links">
           {cookieStatus === true ? <li><a cursor="pointer" onClick={clearCookies}>Clear cookies</a></li> : null}
-          <li><a href="/cookiesconsent">Privacy Policy</a></li>
+          <li><NavLink to="/cookiesconsent">Privacy Policy</NavLink></li>
           
           
         </ul>

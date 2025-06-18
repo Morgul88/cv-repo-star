@@ -16,7 +16,7 @@ const Cookies = () => {
       var banner = document.getElementById('cookie-banner');
       banner.style.display = 'none';
       localStorage.setItem('terms-status', 'true');
-      location.reload();
+      
     });
     const NeglectedTerms = (() => {
       var banner = document.getElementById('cookie-banner');
