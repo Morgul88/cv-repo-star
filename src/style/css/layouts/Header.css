@@ -75,11 +75,11 @@ p {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid transparent;
+    
     
     transition: all 0.3s ease;
-    filter: grayscale(100%) brightness(95%);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%) ;
+    box-shadow: 0 4px 20px rgba(214, 212, 212, 5);
 }
 
 
