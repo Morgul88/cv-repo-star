@@ -61,7 +61,7 @@ body{
     animation: mainSectionAnimation 1.6s ease-in-out forwards;
     animation-delay: 3s;
     opacity: 0;
-    
+    margin-top: 0x;
 }
 
 @keyframes mainSectionAnimation{
@@ -198,11 +198,12 @@ body{
     .content-text {
       width: 95%;
       font-size: 14px;
-      padding:10px;
+      
+      padding:20px;
       p{
         font-size: 16px;
         text-align: left;
-        font-weight: 900;
+        
         
       }
   

@@ -14,7 +14,7 @@ const About = () => {
       
       
       
-      <h2 className='info-title'>BAKGRUND</h2>
+      <h2 className='info-title'>Bakgrund</h2>
 
       {version === 'LÅNG VERSION' ? 
         <>
