@@ -5,6 +5,7 @@ const Cookies = () => {
 
     useEffect(() => {
       if(localStorage.getItem('terms-status')){
+        console.log(5)
         var banner = document.getElementById('cookie-banner');
         banner.style.display = 'none';
       }

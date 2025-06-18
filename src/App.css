@@ -59,7 +59,7 @@ body{
     width: 100%;
     background-color: #1A1A1A;
     animation: mainSectionAnimation 1s ease-in-out forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
     opacity: 0;
     
 }
