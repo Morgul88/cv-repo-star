@@ -1,11 +1,17 @@
 
 .cookies-consent{
     padding:10px;
+    
+    
 }
 .cookie-banner p {
   margin: 0;
 }
-
+.cookie-banner{
+  animation: cookieAnimate 0.8s ease-in-out forwards;
+  animation-delay: 6s;
+  opacity: 0;
+}
 .cookie-banner button {
   margin-left: 10px;
 }
@@ -13,6 +19,7 @@
 .revoke-consent {
   
   margin-top: 20px;
+  
 }
 
 .revoke-consent button {
@@ -39,4 +46,15 @@
 
 .privacy-policy p {
   font-size: 1rem;
+}
+
+@keyframes cookieAnimate {
+  from{
+    transform: translateY(60px);
+    opacity:0;
+  }
+  to{
+    transform: translateY(0);
+    opacity:1;
+  }
 }
