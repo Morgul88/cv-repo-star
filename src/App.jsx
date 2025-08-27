@@ -22,6 +22,9 @@ import Extra from './components/Extra'
 import Haldor from './components/Haldor'
 import Cookies from './components/Cookies'
 import CookiesConsent from './components/CookiesConsent'
+import Project from './components/Project'
+import Education from './components/Education'
+import Experience from './components/Experience'
 
 function App() {
   
@@ -30,10 +33,10 @@ function App() {
   return (
     
     <>
-    <Header />
+    <Header /><Navbar />
     <div className='layout'>
     
-      <Navbar />
+      
       <div className='main-layout'> 
        
       
@@ -44,19 +47,11 @@ function App() {
               
               <Route path="/" element={<Main />} />
               <Route path="/" element={<About />} />
+              <Route path="/project" element={<Project />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/cookiesconsent" element={<CookiesConsent />} />
-              <Route path="/webbutvecklare" element={<Webbutvecklare/>} /> 
-              <Route path="/gryaab" element={<Gryaab />} /> 
-              <Route path="/campus-varberg" element={<CampusVarberg />} /> 
-              <Route path="/el-utbildning" element={<ElUtbildning />} /> 
-              <Route path="/gymnasiet" element={<SGymnasiet />} />
-              <Route path="/walter-hansson" element={<WalterHansson />} />
-              <Route path="/kungsbacka" element={<KungsbackaKommun />} />
-              <Route path="/wellspect" element={<Wellspect />} />
-              <Route path="/granitor" element={<Granitor />} />
-              <Route path="/extra" element={<Extra />} />
-              <Route path="/haldor" element={<Haldor />} />
+              <Route path="/education" element={<Education />} />
+              <Route path="/experience" element={<Experience />} />
+              
             </Routes>
           </section>
          

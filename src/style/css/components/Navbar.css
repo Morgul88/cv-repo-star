@@ -1,8 +1,7 @@
 .navbar {
   display:flex;
-  flex-direction: column;
+  justify-content: space-around;
   padding:0px 30px;
-  text-align: left;
   position: relative;
   padding-bottom: 20px;
   
@@ -10,14 +9,29 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-
+  a{
+    margin-right: 200px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
   
 }
+
+.space-between{
+  
+  
+  width: 80%;
+  
+}
+.space-right{
+  width: 20%;
+}
 .nav-bar-layout {
+  
   i {
     color: white;
     padding-left: 30px;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 30px;
     transition: color 0.3s ease; 
   }
@@ -43,37 +57,27 @@
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.2); 
   color: #f0f0f0; 
-  border-bottom-right-radius: 20px;
+  
 }
 
 .nav-bar-layout{
   background-color: #1A1A1A;
   padding-top: 50px;
-  display:block;
-  padding-right: 60px;
-  padding-left: 60px;
-  width: 400px;
+  display:flex;
+  
+  
+              
 }
 .nav-bar-link.active {
   position: relative;
   font-weight: bold;
-  background-color: #1F1F1F;
-  border-bottom-right-radius: 20px;
+  border-bottom: 3px solid #FF6A00;
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.nav-bar-link.active::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 4px;
-  background-color: #FF6A00;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
+
 .link-title{
   border-top-left-radius: 10px;
   font-weight: 900;

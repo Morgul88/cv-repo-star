@@ -1,0 +1,97 @@
+.education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+  
+    background-color: #1A1A1A;
+     
+}
+
+.education-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color:white;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px; /* Begränsar bredden på listan */
+}
+
+.education-card {
+     background-color: #1A1A1A;
+  padding: 20px;
+  border-radius: 10px;
+  
+  text-align: left;
+}
+
+.education-card h3 {
+  margin: 0;
+  color: white;
+}
+
+.school {
+  font-weight: bold;
+  color: white;
+}
+
+.period {
+  font-style: italic;
+  color: white;
+}
+
+.description {
+  margin-top: 10px;
+  color: white;
+}
+.education-container a {
+  background: linear-gradient(145deg, #FF6A00, #FFA040); /* Glansig gradient */
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Mjuk skugga */
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.education-container a:hover {
+  background: linear-gradient(145deg, #FF7A00, #FFB060); /* Ljusare vid hover */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Starkare skugga */
+}
+ .line-with-dots-edu {
+    position: relative;
+    width: 2px;          
+    height: 450px;      
+    background-color: #FF6A00;; 
+    margin: 50px;
+  }
+
+  .line-with-dots-edu::before {
+    content: '';
+    position: absolute;
+    top: 0px;           
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;          
+    height: 8px;
+    background-color: #FF6A00;
+    
+    border-radius: 50%;  
+    box-shadow:   0 0px 0 0 white,     /* Punkt allra högst upp */
+                    0 180px 0 0 #FF6A00,
+                    0 320px 0 0 #FF6A00,
+                    0 450px 0 0 #FF6A00;
+                  
+  }

@@ -10,17 +10,10 @@ const Header = () => {
 
   return (
     <header>
-      <img className='map' src={map} alt="Map" />
-      <div className='profile-picture'>
-        <img className='image-ani' src={profile} alt="Profile" />
-      </div>
+      
+      
 
-      <div className='title-info fade-in-up'>
-        <h1 className='fade-in-up'>HENRIK STARANDER</h1>
-        <h2>JUNIOR WEBBUTVECKLARE INOM<strong> .NET</strong></h2>
-        <p>#HTML&CSS #JAVASCRIPT #REACT C# #SQL #ASP.NET 
-        #FRONTEND #BACKEND #CMS #AZURE #BLAZOR #FULLSTACK</p>
-      </div>
+      
       <div className='nav-bar-layout-mobile'>
      
      <a className='hover' href="https://github.com/Morgul88" target="_blank" rel="noopener noreferrer">
@@ -45,24 +38,16 @@ const Header = () => {
     {menuOpen && (
     <div className="mobile-menu">
         <ul>
-          <p>UTBILDNINGAR</p>
+          
           {/* PROFIL */}
-          <li><NavLink className="mobile-menu" to='/' onClick={() => setMenuOpen(false)}>BAKGRUND</NavLink></li>
+          <li><NavLink className="mobile-menu" to='/' onClick={() => setMenuOpen(false)}>ABOUT</NavLink></li>
+          <li><NavLink className="mobile-menu" to='/project' onClick={() => setMenuOpen(false)}>PROJECTS</NavLink></li>
 
           {/* UTBILDNINGAR */}
-          <li><NavLink className="mobile-menu" to='/webbutvecklare' onClick={() => setMenuOpen(false)}>EC-UTBILDNING</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/campus-varberg' onClick={() => setMenuOpen(false)}>CAMPUS VARBERG</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/el-utbildning' onClick={() => setMenuOpen(false)}>EL-UTBILDNING</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/gymnasiet' onClick={() => setMenuOpen(false)}>GYMNASIUM</NavLink></li>
-          <p>ERFARENHET</p>
-          {/* ERFARENHET */}
-          <li><NavLink className="mobile-menu" to='/haldor' onClick={() => setMenuOpen(false)}>HALDOR AB</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/granitor' onClick={() => setMenuOpen(false)}>GRANITOR AB</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/wellspect' onClick={() => setMenuOpen(false)}>WELLSPECT HEALTHCARE</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/kungsbacka' onClick={() => setMenuOpen(false)}>KUNGSBACKA KOMMUN</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/gryaab' onClick={() => setMenuOpen(false)}>GRYAAB</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/walter-hansson' onClick={() => setMenuOpen(false)}>WALTER HANSSON ELAB</NavLink></li>
-          <li><NavLink className="mobile-menu" to='/extra' onClick={() => setMenuOpen(false)}>ÖVRIGA</NavLink></li>
+          <li><NavLink className="mobile-menu" to='/education' onClick={() => setMenuOpen(false)}>EDUCATION</NavLink></li>
+          <li><NavLink className="mobile-menu" to='/experience' onClick={() => setMenuOpen(false)}>EXPERIENCE</NavLink></li>
+          
+          
         </ul>
       </div>
     )}

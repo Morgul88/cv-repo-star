@@ -1,0 +1,27 @@
+ .line-with-dots {
+    position: relative;
+    width: 2px;          
+    height: 800px;      
+    background-color: #FF6A00;; 
+    margin: 50px;
+  }
+
+  .line-with-dots::before {
+    content: '';
+    position: absolute;
+    top: 0px;           
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;          
+    height: 8px;
+    background-color: #FF6A00;
+    
+    border-radius: 50%;  
+    box-shadow:   0 0px 0 0 white,     /* Punkt allra högst upp */
+                    0 120px 0 0 #FF6A00,
+                    0 250px 0 0 #FF6A00,
+                    0 400px 0 0 #FF6A00,
+                    0 540px 0 0 #FF6A00,
+                    0 670px 0 0 #FF6A00,
+                    0 800px 0 0 #FF6A00;
+  }
