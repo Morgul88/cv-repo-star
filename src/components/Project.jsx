@@ -1,6 +1,8 @@
 import React from 'react';
 import '../style/css/components/Projects.css';
 import { NavLink } from 'react-router-dom';
+import pic from '../assets/bildCrito.png';
+import pics from '../assets/pic2.png';
 
 const projects = [
   {
@@ -8,21 +10,24 @@ const projects = [
     description: 'En webbapp för att spåra jobbansökningar.',
     tech: ['ASP.NET MVC', 'C#', 'SQL', 'Bootstrap'],
     to: '/project1',
-    progress: 'in progress'
+    progress: 'in progress',
+    background: pics
   },
   {
     title: 'Portfolio Websites',
     description: 'HTML och CSS Skills.',
     tech: ['React', 'CSS', 'HTML'],
     to: '/project2',
-    progress: 'in progress'
+    progress: 'in progress',
+    background: pic
   },
   {
     title: 'E-commerce Site',
     description: 'Onlinebutik med kundvagn och betalningsintegration.',
     tech: ['ASP.NET Core', 'Entity Framework', 'Azure'],
     to: '/project3',
-    progress: 'in progress'
+    progress: 'in progress',
+    background: null
   }
 ];
 
@@ -30,16 +35,27 @@ const Project = () => {
   return (
     <div className='projects-container'>
       {projects.map((project, index) => (
-        <NavLink key={index} to={project.to} className='project-card'>
-          <h3>{project.title}</h3>
-          <p className='description'>{project.description}</p>
-          <div className='tech'>
-            {project.tech.map((techItem, idx) => (
-              <p key={idx} className='tech-item'>{techItem}</p>
-            ))}
-            
+        <NavLink
+          key={index}
+          to={project.to}
+          className='project-card'
+        >
+          <div className="project-text">
+            <h3>{project.title}</h3>
+            <p className='description'>{project.description}</p>
+            <div className='tech'>
+              {project.tech.map((techItem, idx) => (
+                <p key={idx} className='tech-item'>{techItem}</p>
+              ))}
+            </div>
+            <p className='progress'>{project.progress}</p>
           </div>
-          <p>{project.progress}</p>
+          {project.background && (
+            <div 
+              className="project-image" 
+              style={{ backgroundImage: `url(${project.background})` }}
+            />
+          )}
         </NavLink>
       ))}
     </div>
