@@ -31,7 +31,7 @@ const Header = () => {
       </div>
       {/* Hamburgarikonen */}
       <div className="hamburger-menu" onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
+        {menuOpen ? '☰' : <i class="fa-solid fa-xmark"></i>}
       </div>
 
       {/* Mobilmeny */}

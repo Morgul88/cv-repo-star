@@ -68,6 +68,7 @@
   
               
 }
+
 .nav-bar-link.active {
   position: relative;
   font-weight: bold;
@@ -92,6 +93,11 @@
     .nav-bar-layout{
       display:none;
     }
+
+
+    .hover i{
+      padding:15px;
+}
 }
 .nav-links {
   list-style: none;
@@ -104,4 +110,5 @@
 .nav-links a:hover {
   color: #ff6347;
 }
+
 

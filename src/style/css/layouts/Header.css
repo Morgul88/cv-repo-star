@@ -60,6 +60,11 @@ p {
     display:none;
     font-size: 50px;
     padding-bottom: 20px;
+
+    i{
+        padding-top: 12px;
+        transition: all 0.5s ease-in-out;
+    }
 }
 .profile-picture {
     padding-top: 40px;

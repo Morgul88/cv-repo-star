@@ -59,8 +59,8 @@ body{
     display:block;
     width: 100%;
     background-color: #1A1A1A;
-    animation: mainSectionAnimation 1.6s ease-in-out forwards;
-    animation-delay: 1s;
+    animation: mainSectionAnimation 2.0s ease-in-out forwards;
+    animation-delay: 1.6s;
     opacity: 0;
     margin-top: 0x;
 }
@@ -282,76 +282,76 @@ body{
 
 .nav-bar-animation-1 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 2.5s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-2 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 2.7s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-3 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 2.9s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-4 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 3.1s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-5 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 3.3s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-6 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 3.5s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-7 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 3.7s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-8 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 3.9s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-9 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 4.1s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-10 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 4.3s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-11 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 4.5s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-12 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 4.7s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-13 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 4.9s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-14 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 5.1s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 .nav-bar-animation-15 {
   animation: fadeIn 0.8s linear forwards;
-  animation-delay: 5.3s;
+  animation-delay: 0.5s;
   opacity: 0;
 }

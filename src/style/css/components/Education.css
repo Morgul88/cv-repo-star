@@ -76,6 +76,7 @@
     height: 450px;      
     background-color: #FF6A00;; 
     margin: 50px;
+    margin-right: 5px;
   }
 
   .line-with-dots-edu::before {
@@ -94,4 +95,19 @@
                     0 320px 0 0 #FF6A00,
                     0 450px 0 0 #FF6A00;
                   
+  }
+
+  @media (max-width:768px){
+    .line-with-dots-edu{
+      height: 550px;  
+    }
+    .line-with-dots-edu::before {
+    
+    border-radius: 50%;  
+    box-shadow:   0 0px 0 0 white,     /* Punkt allra högst upp */
+                    0 180px 0 0 #FF6A00,
+                    0 320px 0 0 #FF6A00,
+                    0 490px 0 0 #FF6A00;
+                  
+  }
   }

@@ -21,14 +21,14 @@ const Footer = () => {
   console.log(cookieStatus)
   return (
     <footer className="footer">
-      <div className="footer-content">
+      <div className="footer-content .nav-bar-animation-15">
         
         
-        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        <p className="nav-bar-animation-15">&copy; 2025 MyWebsite. All rights reserved.</p>
         {cleared  ? <p className='clear-cookie'>Cookies has been cleared</p>: null}
         <ul className="footer-links">
-          {cookieStatus === true ? <li><a cursor="pointer" onClick={clearCookies}>Clear cookies</a></li> : null}
-          <li><NavLink to="/cookiesconsent">Privacy Policy</NavLink></li>
+          {cookieStatus === true ? <li><a className="nav-bar-animation-15" cursor="pointer" onClick={clearCookies}>Clear cookies</a></li> : null}
+          <li><NavLink  className="nav-bar-animation-15" to="/cookiesconsent">Privacy Policy</NavLink></li>
           
           
         </ul>

@@ -4,6 +4,7 @@
     height: 800px;      
     background-color: #FF6A00;; 
     margin: 50px;
+    margin-right: 5px;
   }
 
   .line-with-dots::before {
@@ -23,5 +24,5 @@
                     0 400px 0 0 #FF6A00,
                     0 540px 0 0 #FF6A00,
                     0 670px 0 0 #FF6A00,
-                    0 800px 0 0 #FF6A00;
+                    0 760px 0 0 #FF6A00;
   }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../style/css/components/Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
-
+import pic2 from '../assets/S1.png';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -11,11 +11,13 @@ const Navbar = () => {
   return (
   <>
     <div className='nav-bar-layout'>
-
+      
       <div className='space-between'>
-         <nav className="navbar nav-bar-animation-5">
         
+         <nav className="navbar nav-bar-animation-5">
+          
           <NavLink
+          
           className={({ isActive }) =>
             isActive
               ? 'nav-bar-link active nav-bar-animation-6'
@@ -23,6 +25,7 @@ const Navbar = () => {
           }
           to='/'
         >
+          
           HOME
         </NavLink>
         <NavLink
