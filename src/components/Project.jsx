@@ -3,6 +3,7 @@ import '../style/css/components/Projects.css';
 import { NavLink } from 'react-router-dom';
 import pic from '../assets/bildCrito.png';
 import pics from '../assets/pic2.png';
+import pict from '../assets/134.png';
 
 const projects = [
   {
@@ -15,12 +16,21 @@ const projects = [
   },
   {
     title: 'Portfolio Websites',
-    description: 'HTML och CSS Skills.',
+    description: 'PLAIN HTML CSS RESPONSIVE SKILLS.',
     tech: ['React', 'CSS', 'HTML'],
-    to: '/project2',
+    to: 'https://github.com/Morgul88/ReactViteCrito',
     progress: 'in progress',
     background: pic
   },
+    {
+    title: 'Portfolio Website',
+    description: 'A full-stack web application built with ASP.NET Core, featuring a separate API and presentation layer, user authentication with Individual Accounts, and responsive front-end design. Showcases modern web development practices and integration between back-end and front-end components.',
+    tech: ['ASP.NET Core', 'Entity Framework', 'SQL Server', 'HTML', 'CSS', 'JavaScript'],
+    to: 'https://github.com/Morgul88/Web-App-Mvc',
+    progress: 'in progress',
+    background: pict
+  }
+,
   {
     title: 'E-commerce Site',
     description: 'Onlinebutik med kundvagn och betalningsintegration.',
