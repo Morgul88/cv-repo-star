@@ -48,6 +48,7 @@ const Project = () => {
     <div className='projects-container'>
       {projects.map((project, index) => (
         <NavLink
+          target='_blank'
           key={index}
           to={project.to}
           className='project-card'
