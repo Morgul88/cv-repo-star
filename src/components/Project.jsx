@@ -8,15 +8,15 @@ import pict from '../assets/134.png';
 const projects = [
   {
     title: 'JobTracker',
-    description: 'En webbapp för att spåra jobbansökningar.',
-    tech: ['ASP.NET MVC', 'C#', 'SQL', 'Bootstrap'],
-    to: '/project1',
+    description: 'WEB APP FOR TRACKING JOB APPLIANTS',
+    tech: ['ASP.NET RAZOR PAGES', 'C#', 'SQL', 'Bootstrap'],
+    to: 'https://github.com/Morgul88/JobTracker',
     progress: 'In progress',
     background: pics
   },
   {
     title: 'Portfolio Websites',
-    description: 'PLAIN HTML CSS RESPONSIVE SKILLS.',
+    description: 'PLAIN HTML CSS RESPONSIVE SKILLS',
     tech: ['React', 'CSS', 'HTML'],
     to: 'https://github.com/Morgul88/ReactViteCrito',
     progress: 'Complete',
