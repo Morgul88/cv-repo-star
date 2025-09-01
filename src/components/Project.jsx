@@ -11,7 +11,7 @@ const projects = [
     description: 'En webbapp för att spåra jobbansökningar.',
     tech: ['ASP.NET MVC', 'C#', 'SQL', 'Bootstrap'],
     to: '/project1',
-    progress: 'in progress',
+    progress: 'In progress',
     background: pics
   },
   {
@@ -19,24 +19,26 @@ const projects = [
     description: 'PLAIN HTML CSS RESPONSIVE SKILLS.',
     tech: ['React', 'CSS', 'HTML'],
     to: 'https://github.com/Morgul88/ReactViteCrito',
-    progress: 'in progress',
+    progress: 'Complete',
     background: pic
   },
-    {
-    title: 'Portfolio Website',
-    description: 'A full-stack web application built with ASP.NET Core, featuring a separate API and presentation layer, user authentication with Individual Accounts, and responsive front-end design. Showcases modern web development practices and integration between back-end and front-end components.',
-    tech: ['ASP.NET Core', 'Entity Framework', 'SQL Server', 'HTML', 'CSS', 'JavaScript'],
-    to: 'https://github.com/Morgul88/Web-App-Mvc',
-    progress: 'in progress',
-    background: pict
-  }
+{
+  title: 'Portfolio Website',
+  description: 'Full-stack ASP.NET Core app with separate API and front-end, JWT authentication, API keys, and responsive design.',
+  tech: ['ASP.NET Core', 'Entity Framework Core', 'SQL Server', 'JWT Authentication', 'API Keys', 'HTML', 'CSS', 'Individual Accounts', 'RESTful APIs'],
+  to: 'https://github.com/Morgul88/Web-App-Mvc',
+  progress: 'Complete',
+  background: pict
+}
+
+
 ,
   {
     title: 'E-commerce Site',
     description: 'Onlinebutik med kundvagn och betalningsintegration.',
     tech: ['ASP.NET Core', 'Entity Framework', 'Azure'],
     to: '/project3',
-    progress: 'in progress',
+    progress: 'In progress',
     background: null
   }
 ];
@@ -58,7 +60,9 @@ const Project = () => {
                 <p key={idx} className='tech-item'>{techItem}</p>
               ))}
             </div>
-            <p className='progress'>{project.progress}</p>
+            {project.progress === 'Complete' 
+            ? <p className='progress complete'>{project.progress}</p> 
+            : <p className='progress in-progress'>{project.progress}</p>}
           </div>
           {project.background && (
             <div 

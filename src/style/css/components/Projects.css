@@ -57,6 +57,22 @@
 
 .progress {
   font-weight: bold;
+  width: 120px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.complete{
+  background-color: rgb(101, 209, 101);
+  
+  
+}
+
+.in-progress{
+  background-color: rgb(202, 202, 71);
+  color:black;
+  
 }
 
 .project-image {
