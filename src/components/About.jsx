@@ -15,7 +15,7 @@ const About = () => {
       <div className='main-story'>
        <div className='profile-name'>
         <img className='name' src={name} alt="" />
-
+        
         <h2>WEB DEVELOPER </h2>
         <div className='tags'>
             <p>#HTML&CSS</p>

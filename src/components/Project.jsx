@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import pic from '../assets/bildCrito.png';
 import pics from '../assets/pic2.png';
 import pict from '../assets/134.png';
+import picts from '../assets/jobtrackerbl.png';
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
     tech: ['ASP.NET RAZOR PAGES', 'C#', 'SQL', 'Bootstrap'],
     to: 'https://github.com/Morgul88/JobTracker',
     progress: 'In progress',
-    background: pics
+    background: picts
   },
   {
     title: 'Portfolio Websites',
