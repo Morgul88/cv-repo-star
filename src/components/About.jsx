@@ -4,7 +4,7 @@ import '../style/css/components/About.css';
 import Timetag from './tag/Timetag';
 import TimelineKnobs from './TimelineKnobs'; 
 import map from '../assets/map.svg';
-import profile from '../assets/profile-pic2.jpg';
+import profile from '../assets/bildsvart.png';
 import name from '../assets/text-1756285776974.png';
 
 const About = () => {
@@ -34,7 +34,7 @@ const About = () => {
            <p >"I am passionate about web development and constantly strive to create efficient and engaging web applications. 
           <br/>Exploring new technologies and improving my skills in both frontend and backend development inspires me every day."</p>
           <div className='resume' >
-             <a href="/CVH.pdf"
+             <a href="/CVN.pdf"
               target="_blank"
               rel="noopener noreferrer"
               title='Ladda ner cv'>Download Resume</a>
