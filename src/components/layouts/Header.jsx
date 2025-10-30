@@ -3,6 +3,7 @@ import '../../style/css/layouts/Header.css';
 import Navbar from '../Navbar';
 import profile from '../../assets/profile-pic2.jpg';
 import map from '../../assets/map.svg';
+import gif from '../../assets/NewPiskel2.gif';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {

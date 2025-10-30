@@ -16,8 +16,108 @@
 .extra{
 
 }
+.form-coffe{
+  display:flex;
+  justify-content: center;
+  
+}
+.coffee-guy{
+    padding-top: 20px;
+    padding-left: 300px;
+    
+    display:flex;
+       opacity: 0;
+    transform: translateY(0px);
+    
+    /* Animation */
+    animation: fadeInUp 3s ease forwards;
+    animation-delay: 4s; /* vänta 0.5 sek innan den börjar */
+  }
+  .coffee-talk p{
+    margin:0 !important;
+    padding:3px;
+    
+  }
+  .coffee-talk{
+    padding-top: 40px;
+    
+  }
+  .coffee-guy p{
+    
+    padding-left: 30px;
+    
+    /* color:#FF6A00 !important; */
+    padding-bottom: 0;
+      opacity: 0;
+    transform: translateY(0px);
+    
+    /* Animation */
+    animation: fadeInUp 3s ease forwards;
+    animation-delay: 6s; /* vänta 0.5 sek innan den börjar */
+  }
+    
+   
 
-
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ .cv-form {
+      background-color: #1A1A1A;
+      padding: 30px;
+      border-radius: 10px;
+      width: 100%;
+      margin:5px;
+      max-width: 400px;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    .cv-form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .cv-label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #ccc;
+      font-weight: bold;
+    }
+    .cv-input, .cv-textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      font-size: 14px;
+      background-color: #2A2A2A;
+      color: #fff;
+    }
+    .cv-input::placeholder, .cv-textarea::placeholder {
+      color: #888;
+    }
+    .cv-button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cv-button:hover {
+      background-color: #0056b3;
+    }
+.my-gif{
+  width: 300px;;
+  height: 300px;
+}
 /* Media query */
 @media screen and (max-width: 768px) {
   .main-section {
@@ -37,5 +137,23 @@
   }
   to{
     opacity: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .coffee-guy{
+    display:block;
+    padding:0;
+    padding-top:30px;
+    margin:0;
+    justify-content: center;
+    padding-right: 60px;
+    
+  }
+}
+@media (max-width: 700px) {
+  .coffee-talk{
+    padding:0;
+    margin-top: 0;
   }
 }
