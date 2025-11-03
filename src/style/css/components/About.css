@@ -2,20 +2,27 @@
     text-decoration: none;
 }
 .about{
-  height: 1000px;
-    
+  min-height: 1000px;
+  padding-top: 100px;
+
+  
 }
 .main-story {
-    position: relative;
-    min-height: 70vh;  
     
+    min-height: 10vh;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
     
 }
+.tag-width{
+  
+}
 .profile-name{
-    position: absolute;
-    top: 400px;
-    left:700px;
+    padding-top: 160px;
+    position: relative;
+    padding-right: 300px;
     text-align: left;
     white-space: nowrap;
 
@@ -36,6 +43,7 @@
     p{
         font-size: 15px;
         color: white;
+        
     }
    
     
@@ -54,13 +62,15 @@
 .map {
     z-index: -5;
     position: absolute;
-    left: 700px;
-    top: 250px;
     width: 600px;
+    
+    
     
 }
 .profile-picture img {
     position: absolute;
+    top: 110px;
+    left: 700px;
     z-index: 2;
     width: 400px;
     height: 500px;
@@ -70,9 +80,10 @@
     filter: grayscale(100%) ;
     box-shadow: none;
     border-radius: 100%;
-    box-shadow: 0 6px 50px rgba(255, 10, 0, 0.4);
+    
+    opacity: 100%;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .profile-picture img {
     display:none;
   }
@@ -82,20 +93,19 @@
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
+
 .profile-picture {
-    position: absolute;
+   
     z-index: -2;
-    top: 100px;
-    left: 1350px;
+   
     padding-top: 40px;
     padding-right: 70px;
     padding-left: 50px;
     box-shadow: none;
 }
-.profile-name{
 
-}
 
 .resume a {
   background: linear-gradient(145deg, #FF6A00, #FFA040); /* Glansig gradient */
@@ -121,7 +131,7 @@
 @media screen and (max-width: 768px) {
   .main-story {
     margin-left: 10px;
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,17 +139,33 @@
     padding: 20px;
     
   }
+  .coffee-guy{
+    padding-top: 0;
+    padding-right: 0;
+    
+    
+    p{
+      font-size: 16px;
+      
+    }
+  }
 
+  .coffee-guy img{
+    padding-right: 60px;
+  }
   .profile-name {
     position: static;
     text-align: center;
     white-space: normal;
+    padding:0;
   }
-
+  .about{
+    padding:0;
+  }
   .profile-name h1 {
     font-size: 36px;
   }
-
+  
   .profile-name h2 {
     font-size: 24px;
   }
@@ -170,21 +196,9 @@
     margin: 0 auto;
   }
 
-  .profile-picture {
-    position: static;
-    
-    padding: 0;
-  }
+ 
 
- .profile-picture img {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 100;
-  left: 50%;
-  transform: translateX(-50%);
-  box-shadow: none;
-} 
+ 
 .name{
     width: 300px;
 }

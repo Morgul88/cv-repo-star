@@ -1,6 +1,6 @@
 /* Main-section standard */
 .main-section {
-  padding-left: 60px;
+  padding-left: 20px;
   padding-right: 20px;
   font-size: 16px;
   padding-bottom: 60px;
@@ -10,7 +10,7 @@
   border-bottom-left-radius: 30px;
   margin: 0px;
   padding-top: 20px;
-  
+  text-align: center;
   
 }
 .extra{
@@ -22,11 +22,13 @@
   
 }
 .coffee-guy{
-    padding-top: 20px;
-    padding-left: 300px;
     
+    padding-right: 320px;
+    color:#FF6A00;
     display:flex;
-       opacity: 0;
+    justify-content: center;
+    font-weight: 900;
+    opacity: 0;
     transform: translateY(0px);
     
     /* Animation */
@@ -39,11 +41,12 @@
     
   }
   .coffee-talk{
-    padding-top: 40px;
+    padding-top: 30px;
     
+    color:white;
   }
   .coffee-guy p{
-    
+    max-width: 300px;
     padding-left: 30px;
     
     /* color:#FF6A00 !important; */
