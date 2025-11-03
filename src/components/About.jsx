@@ -6,7 +6,7 @@ import TimelineKnobs from './TimelineKnobs';
 import map from '../assets/map.svg';
 import profile from '../assets/bildsvart.png';
 import name from '../assets/text-1756285776974.png';
-import coffee from '../assets/coffe123.gif';
+import coffee from '../assets/coffe7.gif';
 
 const About = () => {
   const [version, setVersion] = useState('KORT VERSION'); 
